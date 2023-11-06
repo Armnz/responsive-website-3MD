@@ -1,0 +1,105 @@
+* {
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {}
+
+
+/** Blog **/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.blog-header {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  background-color: aqua;
+}
+
+.about {}
+.about-left {}
+.about-right {}
+.blog {}
+.blog-posts {}
+.blog-post {}
+.works {}
+.work {}
+.work-image {}
+.work-right {}
+.work-right-year {}
+.blog-footer {}
+.socials {}
+
+/** Blocks **/
+
+.blocks-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+  line-height: 50px;
+}
+.header {
+  background-color: darkblue;
+  flex: 30%;
+}
+.menu {
+  background-color: salmon;
+  flex: 70%
+}
+.hero {
+  background-color: lightblue;
+  height: 300px;
+  line-height: 300px;
+}
+.middle {
+  display: flex;
+  height: 200px;
+  line-height: 200px;
+}
+.main {
+  background-color: darkgrey;
+  flex-basis: 50%;
+}
+.middle-right {
+  
+  display: flex;
+ 
+ flex-basis: 50%;
+ height: 200px;
+
+}
+.empty {
+  flex-basis: 50%;
+}
+.middle-right-right {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+.image {
+  background-color: lightgreen;
+  height: 100px;
+  line-height: 100px;
+}
+.extra {
+  background-color: olivedrab;
+  height: 100px;
+  line-height: 100px;
+}
+.banner {
+  background-color: yellowgreen;
+  color: black;
+  height: 100px;
+  line-height: 100px;
+}
