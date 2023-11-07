@@ -7,94 +7,122 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/styles.css">
     <title>Document</title>
 </head>
 <body>
 
-    <div class="container">
-        <div class="blog-header">
-            <p><a href="#works">Works</a></p>
-            <p><a href="#blog">Blog</a></p>
-            <p><a href="#contact">Contact</a></p>
+    <section class="section-header">
+        <div class="col-9 blog-header">
+            <p class="header__link"><a href="#works">Works</a></p>
+            <p class="header__link"><a href="#blog">Blog</a></p>
+            <p class="header__link"><a href="#contact">Contact</a></p>
         </div>
-        <div class="about">
-            <div class="about-left">
-                <h1>Hi, I am John, Creative Technologist</h1>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                <button></button>
-            </div>
-            <div class="about-right">
-                <img src="" alt="">
-            </div>
-        </div>
-        <div class="blog">
-            <p>Recent posts</p>
-            <div class="blog-posts">
-                <div class="blog-post">
-                    <h3>Making a design system from scratch</h3>
-                    <p></p>
-                    <p></p>
-                </div>
-                <div class="blog-post">
-                    <h3>Creating pixel perfect icons in Figma</h3>
-                    <p></p>
-                    <p></p>
-                </div>
-            </div>
-        </div>
-        <div class="worls">
-            <p>Feature works</p>
-            <div class="work">
-                <div class="work-image">
-                    <img src="" alt="image">
-                </div>
-                <div class="work-right">
-                    <h3></h3>
-                    <div class="work-right-year">
-                        <p>2020</p>
-                        <p>Dashboard</p>
+    </section>
+    
+        <section class="section-about">
+            <div class="container">
+                <div class="row about justify-content-center">
+                    <div class="col-12 col-md-6 about-left">
+                        <h1>Hi, I am John, Creative Technologist</h1>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat du
+                            enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <button type="button" class="btn btn-primary btn-resume">Download Resume</button>
                     </div>
-                    <p></p>
-                </div>
-            </div>
-            <div class="work">
-                <div class="work-image">
-                    <img src="" alt="image">
-                </div>
-                <div class="work-right">
-                    <h3></h3>
-                    <div class="work-right-year">
-                        <p>2020</p>
-                        <p>Dashboard</p>
+                    <div class="col-12 col-md-6 about-right">
+                        <img src="assets/images/john.png" alt="image" class="about-img img-fluid">
                     </div>
-                    <p></p>
                 </div>
             </div>
-            <div class="work">
-                <div class="work-image">
-                    <img src="" alt="image">
-                </div>
-                <div class="work-right">
-                    <h3></h3>
-                    <div class="work-right-year">
-                        <p>2020</p>
-                        <p>Dashboard</p>
+        </section>
+    
+        <section class="section-blog">
+            <div class="container blog-container">
+                <div class="blog">
+                    <p class="blog-text">Recent posts</p>
+                    <div class="row blog-posts justify-content-left">
+                        <div class="col-12 col-md-5 blog-post">
+                            <h3>Making a design system from scratch</h3>
+                            <p>12 Feb 2020   |   Design, Pattern</p>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        </div>
+                        <div class="col-12 col-md-5 blog-post">
+                            <h3>Creating pixel perfect icons in Figma</h3>
+                            <p>12 Feb 2020   |   Figma, Icon Pattern</p>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        </div>
                     </div>
-                    <p></p>
                 </div>
             </div>
-        </div>
-        <div class="blog-footer">
-            <div class="socials">
-                <img src="" alt="icon">
-                <img src="" alt="icon">
-                <img src="" alt="icon">
-                <img src="" alt="icon">
+        </section>
+    
+        <section class="section-works">
+            <div class="container">
+                <p>Featured works</p>
+                <div class="works">
+                    <div class="work">
+                        <div class="row">
+                            <div class="col-12 col-md-4 work-image">
+                                <img src="assets/images/works_1.png" alt="image" class="img-fluid">
+                            </div>
+                            <div class="col-12 col-md-6 work-right">
+                                <h3>Designing Dashboards</h3>
+                                <div class="work-right-year">
+                                    <button type="button" class="btn btn-sm btn-year">2020</button>                                <p>Dashboard</p>
+                                </div>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <div class="row">
+                            <div class="col-12 col-md-4 work-image">
+                                <img src="assets/images/works_2.png" alt="image" class="img-fluid">
+                            </div>
+                            <div class="col-12 col-md-6 work-right">
+                                <h3>Designing Dashboards</h3>
+                                <div class="work-right-year">
+                                    <button type="button" class="btn btn-sm btn-year">2018</button>                                <p>Illustration</p>
+                                </div>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <div class="row">
+                            <div class="col-12 col-md-4 work-image">
+                                <img src="assets/images/works_3.png" alt="image" class="img-fluid">
+                            </div>
+                            <div class="col-12 col-md-6 work-right">
+                                <h3>36 Days of Malayalam type</h3>
+                                <div class="work-right-year">
+                                    <button type="button" class="btn btn-sm btn-year">2018</button>                                <p>Typography</p>
+                                </div>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <p>Copyright ©2020 All rights reserved</p>
-        </div>
-    </div>
+        </section>
+    
+        <footer class="footer">
+            <div class="container">
+                <div class="blog-footer">
+                    <div class="socials">
+                        <img src="assets/images/facebook.svg" alt="icon" class="socials__icon">
+                        <img src="assets/images/instagram.svg" alt="icon" class="socials__icon">
+                        <img src="assets/images/twitter.svg" alt="icon" class="socials__icon">
+                        <img src="assets/images/linkedin.svg" alt="icon" class="socials__icon">
+                    </div>
+                    <p class="copyright">Copyright © 2020 All rights reserved</p>
+                </div>
+            </div>
+        </footer>
+  
+    
+    
 
 
 
